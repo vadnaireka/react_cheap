@@ -1,0 +1,19 @@
+.headerCell{
+    padding: 10px;
+    margin: 10px;
+    background-color: #468c8c;
+    border-color: #a57e58;
+    border-style: dotted;
+    border-width: 2px;
+    width: 300px;
+}
+
+.table{
+    margin: auto;
+}
+
+.dataCell{
+    padding: 10px;
+    border-bottom: dotted;
+    border-width: 1px;
+}

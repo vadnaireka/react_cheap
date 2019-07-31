@@ -1,0 +1,9 @@
+.form{
+    padding: 20px;
+    margin: 20px;
+    background-color: #cac9c9;
+}
+
+.btn{
+    cursor: pointer;
+}
