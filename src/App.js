@@ -17,6 +17,9 @@ class App extends Component {
         axios.get('https://jsonplaceholder.typicode.com/todos?_limit=10').then(response => this.setState({datas: response.data}));
     }
 
+    myCallback = (dataFromChild) => this.setState({datas: dataFromChild});
+
+
     render() {
 
         return (
@@ -26,7 +29,7 @@ class App extends Component {
                 </header>
 
                 <div className="searcher">
-                    < SearchingForm/>
+                    < SearchingForm sendDataToParent={this.myCallback}/>
                     < Searcher datas={this.state.datas}/>
                 </div>
 

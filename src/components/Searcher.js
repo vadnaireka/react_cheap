@@ -15,8 +15,8 @@ class Searcher extends Component {
                 <tbody>
                 {this.props.datas.map((data) => (
                     <tr className='bodyRow'>
-                        <td className='dataCell'>{data.title}</td>
-                        <td className='dataCell'>{data.arrival_data}</td>
+                        <td className='dataCell'>{data.departure_time}</td>
+                        <td className='dataCell'>{data.arrival_time}</td>
                         <td className='dataCell'>{data.price} USD</td>
                     </tr>
                 ))}
