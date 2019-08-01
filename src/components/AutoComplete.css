@@ -1,0 +1,14 @@
+.AutoComplete{
+ flex-direction: row;
+}
+
+
+.AutoComplete input{
+    width: content-box;
+}
+
+.AutoComplete ul{
+    list-style-type: none;
+    text-align: left;
+}
+

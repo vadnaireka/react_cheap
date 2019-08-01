@@ -1,9 +1,14 @@
 .form{
     padding: 20px;
-    margin: 20px;
     background-color: #cac9c9;
+    width: max-content;
+    margin: 10px auto;
 }
 
 .btn{
     cursor: pointer;
+}
+
+.container{
+    width: auto;
 }
