@@ -13,9 +13,6 @@ class App extends Component {
 
     };
 
-    componentDidMount() {
-        axios.get('https://jsonplaceholder.typicode.com/todos?_limit=10').then(response => this.setState({datas: response.data}));
-    }
 
     myCallback = (dataFromChild) => this.setState({datas: dataFromChild});
 
